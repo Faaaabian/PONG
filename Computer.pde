@@ -6,7 +6,7 @@ class Computer {
 
   Computer(Paddle pad, int _lvl) {
     racket = pad;
-    lvl = _lvl -1;
+    lvl = _lvl ;
     offset = racket.h/2;
     displayLvl(_lvl);
   }

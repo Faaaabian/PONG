@@ -67,7 +67,7 @@ void actualGame() {
 }
 
 void fastenGame(){
-  if((leftScore + rightScore)%5 == 0){
+  if((leftScore + rightScore)%5 == 0 && leftScore + rightScore != 0){
     puck.gameSpeed++;
   }
   if(puck.gameSpeed == 7 && comp != null){
